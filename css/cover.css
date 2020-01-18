@@ -1,0 +1,25 @@
+body {
+  background-color: #C9C9C9;
+}
+.cover {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 518px;
+  background-image: url(../img/cover.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.btn {
+  position: absolute;
+  display: flex;
+  left: 280px;
+  top: 30px;
+}
+.btn-bottom {
+  position: absolute;
+  display: flex;
+  left: 145px;
+  top: 528px;
+}

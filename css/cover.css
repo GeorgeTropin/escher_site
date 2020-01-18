@@ -23,3 +23,16 @@ body {
   left: 145px;
   top: 528px;
 }
+.cover__start-sign {
+  position: absolute;
+  font-family: 'Amiri', serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 52px;
+  left: 65px;
+  top: 181px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 60px;
+
+}

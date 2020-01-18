@@ -4,3 +4,8 @@
 @import "works.css";
 @import "team.css";
 @import "cover.css";
+@font-face {
+  font-family: 'Amiri', serif;
+  font-weight: bold;
+  src: url(../fonts/Amiri-Bold.ttf) format("truetype");
+}

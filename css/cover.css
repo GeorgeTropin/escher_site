@@ -6,7 +6,7 @@ body {
   justify-content: center;
   width: 100vw;
   height: 518px;
-  background-image: url(../img/cover.png);
+  background-image: url(../img/cover.gif);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body {
   position: absolute;
   display: flex;
   left: 145px;
-  top: 528px;
+  top: 480px;
 }
 .cover__start-sign {
   position: absolute;

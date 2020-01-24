@@ -146,6 +146,30 @@ body {
   top: -43vw;
   animation: 4s linear infinite  team__h__bg-animation;
 }
+.team__bg {
+  position: absolute;
+  width: 80vw;
+  height: 430vw;
+  z-index: 0;
+}
+.team__bg div {
+  position: relative;
+  background-size: contain;
+}
+/*.team__bg-1 {
+  background: url(../img/team__bg-1.svg);
+  width: 198px;
+  height: 231px;
+  top: -10vw;
+  left: 49vw;
+}
+.team__bg-2 {
+  background: url(../img/team__bg-2.svg);
+  width: 320px;
+  height: 535.48px;
+  top: -7vw;
+  left: -19vw;
+}*/
 .team__card {
   margin-bottom: 7vw;
 }
@@ -185,6 +209,18 @@ body {
 }
 .team__card__works {
   font-size: 5.2vw;
+}
+.team__card__works p {
+  margin: 2vw 0;
+}
+.team__end {
+  font-size: 6vw;
+  width: 80vw;
+  margin: 15vw 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Адаптив на планшеты */

@@ -16,8 +16,135 @@ body {
   padding: 10vw;
 }
 .team__h {
-  font-size: 10vw;
-  margin-bottom: 11vw;
+  width: 80vw;
+  height: 80vh;
+  margin: 10vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team__h p {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.team__h__bg{
+  position: absolute;
+  width: 80vw;
+  height: 80vh;
+}
+.team__h__bg-1 {
+  position: relative;
+  width: 150px;
+  height: 128.45px;
+  background: url(../img/team__himg__1.svg);
+  background-size: contain;
+  left: 67vw;
+  top: 0vw;
+  animation: 10s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-2 {
+  position: relative;
+  width: 111px;
+  height: 128px;
+  background: url(../img/team__himg__2.svg);
+  background-size: contain;
+  left: -21vw;
+  top: 72vw;
+  animation: 8s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-3 {
+  position: relative;
+  width: 27px;
+  height: 31px;
+  background: url(../img/team__himg__3.svg);
+  background-size: contain;
+  left: 71vw;
+  top: 9vw;
+  animation: 2s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-4 {
+  position: relative;
+  width: 57px;
+  height: 61px;
+  background: url(../img/team__himg__4.svg);
+  background-size: contain;
+  left: 55vw;
+  top: 31vw;
+  animation: 6s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-5 {
+  position: relative;
+  width: 40px;
+  height: 45.88px;
+  background: url(../img/team__himg__5.svg);
+  background-size: contain;
+  left: 6vw;
+  top: -111vw;
+  animation: 4s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-6 {
+  position: relative;
+  width: 30px;
+  height: 33.33px;
+  background: url(../img/team__himg__6.svg);
+  background-size: contain;
+  left: -2vw;
+  top: -77vw;
+  animation: 4s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-7 {
+  position: relative;
+  width: 16px;
+  height: 17.07px;
+  background: url(../img/team__himg__7.svg);
+  background-size: contain;
+  left: 51vw;
+  top: -143vw;
+  animation: 4s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-8 {
+  position: relative;
+  width: 20px;
+  height: 22.27px;
+  background: url(../img/team__himg__8.svg);
+  background-size: contain;
+  left: 38vw;
+  top: -117vw;
+  animation: 4s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-9 {
+  position: relative;
+  width: 16px;
+  height: 16.53px;
+  background: url(../img/team__himg__9.svg);
+  background-size: contain;
+  left: 60vw;
+  top: -83vw;
+  animation: 4s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-10 {
+  position: relative;
+  width: 16px;
+  height: 16.53px;
+  background: url(../img/team__himg__10.svg);
+  background-size: contain;
+  left: 15vw;
+  top: -64vw;
+  animation: 4s linear infinite  team__h__bg-animation;
+}
+.team__h__bg-11 {
+  position: relative;
+  width: 20px;
+  height: 17.14px;
+  background: url(../img/team__himg__11.svg);
+  background-size: contain;
+  left: 32vw;
+  top: -43vw;
+  animation: 4s linear infinite  team__h__bg-animation;
 }
 .team__card {
   margin-bottom: 7vw;
@@ -118,5 +245,11 @@ body {
   }
   .team__card__works {
     font-size: 1.7vw;
+  }
+}
+
+@keyframes team__h__bg-animation {
+  to {
+    transform: rotate(360deg);
   }
 }

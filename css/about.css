@@ -1,0 +1,67 @@
+.about {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 1704px;
+  background-image: url(../img/about_cover.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.about_sign {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  display: flex;
+  justify-content: center;
+  left: 46px;
+  top: 830px;
+  transform: translateY(-600px)
+}
+.first_paragraph {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 240px;
+  top: 1376px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-left: 40px;
+  transform: translateY(-298px)
+}
+.bck2 {
+  width: 362px;
+  height: 349px;
+  transform: translateY(222px);
+}
+.r1 {
+  transform: translateY(826px);
+}
+.r2 {
+  margin-left: 90px;
+  transform: translateY(522px);
+
+}
+.second_paragraph {
+  width: 280px;
+height: 232px;
+left: 19px;
+top: 1744px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: white;
+margin-left: 40px;
+}
